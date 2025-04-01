@@ -1,7 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #0c0c0c;
-  background-color: #F0EDEE;
+  color: #b8b7b7;
+  background-color: #0c0c0c;
 }
 
 .layout_padding {
@@ -299,9 +299,12 @@ a:focus {
 
 .slider_section .img-container .img-box img {
   width: 33%;
+  
+  border: 5px solid #000000;
+
 }
 
-.slider_section #carouselExampleIndicators {
+.slider_section #carouselIndicators {
   position: unset;
   width: 100%;
 }
@@ -441,6 +444,7 @@ a:focus {
   background-color: #39304A;
   color: #F0EDEE;
   text-align: center;
+  line-height: 0;
 }
 
 .category_section .heading_container {
@@ -458,6 +462,8 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #000000;
+
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -webkit-box-pack: justify;
@@ -468,6 +474,7 @@ a:focus {
 
 .category_section .category_container .box {
   width: 25%;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -478,16 +485,14 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 0;
-
 }
 
 .category_section .category_container .box .img-box {
   padding: 2%;
-  
+
   width: auto;
   height: auto;
-  margin: 0px 0;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -813,7 +818,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #fdfeff;
+  background-color: #b8b7b7;
 }
 
 .footer_section p {
